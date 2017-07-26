@@ -1,0 +1,35 @@
+{
+  "name": "angular-uib-tree-dropdown",
+  "version": "2.0.0",
+  "description": "Angular UIB Tree Dropdown Component",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChristianKreuzberger/angular-tree-dropdown.git"
+  },
+  "keywords": [
+    "Angular",
+    "Dropdown",
+    "UIB",
+    "Angular UI",
+    "Tree",
+    "Select"
+  ],
+  "author": "Christian Kreuzberger",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ChristianKreuzberger/angular-tree-dropdown/issues"
+  },
+  "homepage": "https://github.com/ChristianKreuzberger/angular-tree-dropdown#readme",
+  "devDependencies": {
+    "gulp-clean-css": "^3.7.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^2.0.1"
+  }
+}

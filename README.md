@@ -1,39 +1,38 @@
-# Angular Tree Dropdown
+# Angular UIB Tree Dropdown
 
-Pure [AngularJS](http://www.angularjs.org/) based tree-dropdown directive.
+This is a fork of [angular-tree-dropdown](https://github.com/shri-bhat/angular-tree-dropdown) by [shri-bhat](https://github.com/shri-bhat).
+Original work was executed by him.
 
-[
-![Click Here For Tree Dropdown Demo](https://dl.dropboxusercontent.com/u/58164209/Angular-Tree-Dropdown/demo-img.png)
-](https://dl.dropboxusercontent.com/u/58164209/Angular-Tree-Dropdown/demo.html)
+This repo contains a cleaned-up version, which also requires angular-uib to work.
 
 ## Installation
 
-Copy the script and css into your project and add a script and link tag to your page.
+Copy the script and css from the [dist/](dist/) folder into your project and add a script and link tag to your page.
 
 ```html
-<script src="tree-dropdown/tree-dropdown.js"></script>
-<link rel='stylesheet' href="tree-dropdown/tree-dropdown.css" />
+<script src="angular-uib-tree-dropdown/dist/angular-uib-tree-dropdown.min.js"></script>
+<link rel="stylesheet" href="angular-uib-tree-dropdown/dist/angular-uib-tree-dropdown.min.css" />
 ```
 
 Add a dependency to your application module.
 
 ```javascript
-angular.module('App', ['tree.dropdown']);
+angular.module('App', ['ui.treeDropdown']);
 ```
 
 Add a tree-dropdown to your application. See [Usage](#usage).
 
 ## Usage
 
-Attributes of angular tree-dropdown are below.
+Attributes of the directive ``uib-tree-dropdown`` are as follows:
 
-- tree-dropdown: the tree dropdown directive.
+- uib-tree-dropdown: the tree dropdown directive.
 - data : the tree model on $scope.
 - selected : selected item.
 
-Here is an example.
+Here is an example:
 ```html
-<tree-dropdown class="tree-dropdown" data="treeData" selected="selected"></tree-dropdown>
+<uib-tree-dropdown class="tree-dropdown" data="treeData" selected="selected"></uib-tree-dropdown>
 ```
 
 Example model:
@@ -59,5 +58,3 @@ If tree-dropdown item is selected, then that selected tree-dropdown item is save
 ## License
 
 The MIT License.
-
-Copyright ⓒ 2015 Shripad Bhat
